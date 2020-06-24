@@ -6,7 +6,7 @@ const updateWeidexHosts = require("./utils/updateWeidexHosts");
 const BigNumber = require("bignumber.js");
 
 program
-  .description("huobi grid trading")
+  .description("weidex auto grid trading")
   .requiredOption("-p, --pair <string>", "pair name, likes 'btc/usdt'")
   .requiredOption("-H, --highAmount <number>", "amount ceiling")
   .requiredOption("-L, --lowAmount <number>", "amount floor")

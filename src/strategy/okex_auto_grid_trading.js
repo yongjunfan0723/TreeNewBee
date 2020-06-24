@@ -4,7 +4,7 @@ const Okex3 = require("ccxt").okex3;
 const AutoGridTradingFactory = require("./factory/auto_grid_trading");
 
 program
-  .description("huobi grid trading")
+  .description("okex auto grid trading")
   .requiredOption("-p, --pair <string>", "pair name, likes 'btc/usdt'")
   .requiredOption("-H, --highAmount <number>", "amount ceiling")
   .requiredOption("-L, --lowAmount <number>", "amount floor")

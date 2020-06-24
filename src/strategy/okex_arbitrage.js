@@ -7,7 +7,7 @@ const Weidex = require("../js/weidex");
 const ArbitrageFactory = require("./factory/arbitrage");
 
 program
-  .description("arbitrage between huobi and weidex")
+  .description("arbitrage between okex and weidex")
   .option("-p, --pair <number>", "交易对")
   .option("-a, --arbitrageProfit <number>", "收益率")
   .option("-P, --period <number>", "run period", 30)
